@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Drumkit</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="holder container">
+        <row class="d-lg-flex d-md-flex"> 
+            <div class="keys">
+                <div data-key="65" class="key  border m-3">
+                    <kbd class="d-block fs-4">A</kbd>
+                    <span class="sound text-danger p-2">clap</span>
+                </div>
+                <div data-key="68" class="key  border m-3">
+                    <kbd class="d-block fs-4">D</kbd>
+                    <span class="sound text-danger p-2">hat</span>
+                </div>
+                <div data-key="83" class="key  border m-3">
+                    <kbd class="d-block fs-4">S</kbd>
+                    <span class="sound text-danger p-2">clap</span>
+                    </div>
+            </div>
+            <div class="keys"> 
+                <div data-key="70" class="key  border m-3">
+                    <kbd class="d-block fs-4">F</kbd>
+                    <span class="sound text-danger p-2">open</span>
+                </div>
+                <div  data-key="71" class="key  border m-3">
+                    <kbd class="d-block fs-4">G</kbd>
+                    <span class="sound text-danger p-2">boom</span>
+                </div>
+                <div  data-key="72" class="key  border m-3">
+                    <kbd class="d-block fs-4">H</kbd>
+                    <span class="sound text-danger p-2">hide</span>
+                </div>
+            </div>
+            <div class="keys"> 
+                <div  data-key="66" class="key  border m-3">
+                    <kbd class="d-block fs-4">B</kbd>
+                    <span class="sound text-danger p-2">beat</span>
+                </div>
+                <div  data-key="78" class="key  border m-3">
+                    <kbd class="d-block fs-4">N</kbd>
+                    <span class="sound text-danger p-2">over</span>
+                </div>
+                <div  data-key="76" class="key  border m-3">
+                    <kbd class="d-block fs-4">L</kbd>
+                    <span class="sound text-danger p-2">brass</span>
+                </div>
+           
+                <div  data-key="90" class="key  border m-3">
+                    <kbd class="d-block fs-4">Z</kbd>
+                    <span class="sound text-danger p-2">over</span>
+                </div>
+            </div>
+            </div>
+        </row>
+    </div>
+
+<div class="audio">  
+    <audio id="1" data-key="65" src="./sounds/beat1.wav"></audio>
+    <audio id="2" data-key="68" src="./sounds/beat2.wav"></audio>
+    <audio id="3" data-key="83" src="./sounds/beat3.wav"></audio>
+    <audio id="4" data-key="70" src="./sounds/beat4.wav"></audio>
+    <audio id="5" data-key="71" src="./sounds/beat5.wav"></audio>
+    <audio id="6" data-key="72" src="./sounds/beat6.wav"></audio>
+    <audio id="7" data-key="66" src="./sounds/beat7.wav"></audio>
+    <audio id="8" data-key="78" src="./sounds/beat8.wav"></audio>
+    <audio id="9" data-key="76" src="./sounds/beat9.wav"></audio>
+    <audio id="10" data-key="90" src="./sounds/beat10.wav"></audio>
+</div>
+
+
+    <Script src="./js/bootstrap.min.js"></Script>
+    <Script src="./js/app.js"></Script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/field.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.key{
+    transition: all 0.7s;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: rgb(255, 0, 200);
+    box-shadow:0 0 10px rgb(221, 42, 78);
+}
+.keys{
+    display: flex;
+}
+.holder{
+    margin-top: 200px;
+}
+
+@media (max-width:768px) { 
+    .holder{
+        margin-top: 300px;
+    }
+}
+@media (max-width:425px) { 
+    .holder{
+        margin-top: 70px;
+    }
+}
